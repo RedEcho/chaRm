@@ -27,9 +27,10 @@ HardDrive2=D
 FadeTime=50
 
 ; Police, size and weight of each text
-TextFont=ITC Avant Garde Pro Xlt
+Font_Default=Lato
+Font_Hairline=Lato Hairline
 ClockFontSize=170
-ClockFontWeight=300
+ClockFontWeight=100
 DateFontSize=25
 DateFontWeight=700
 TitleFontSize=12
