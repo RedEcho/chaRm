@@ -20,11 +20,18 @@ HardDrive1=C
 HardDrive2=D
 
 
-; YOU DON'T NEED TO MESS WITH THOSE
+; YOU MAY WANT TO CHANGE THOSE
 ;----------------------------------
 
 ; Time in ms the color fading should take when the wallpaper changes
-FadeTime=100
+FadeTime=50
+
+; Set to 1 to swith to greyscale (no colors)
+Grayscale=0
+
+; Wether the program will sample the all wallpaper and choose the same colors for all text (0)
+; Or if it try to choose the best colors for each section of wallpaper(1)
+SampleIndividualZones = 0
 
 ; Police, size and weight of each text
 Font_Default=Lato

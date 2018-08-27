@@ -1,6 +1,10 @@
 [Variables]
 @Include2=#ROOTCONFIGPATH#Settings.inc
 
+; Get most important colors from the wallpaper using chameleon plugin.
+; Also fades between colors when the wallpaper changes
+;----------------------------------------------------------------------
+
 [ChameleonDesktop]
 Measure=Plugin
 Plugin=Chameleon
@@ -28,19 +32,22 @@ Color=Luminance
 Measure=Script
 ScriptFile=#@#Fade.lua
 Source=ChamColor_FG1
-Timestep=10
+Timestep=5
 
 [DesktopColor_FG2]
 Measure=Script
 ScriptFile=#@#Fade.lua
 Source=ChamColor_FG2
-Timestep=10
+Timestep=5
 
 [DesktopColor_L]
 Measure=Script
 ScriptFile=#@#Fade.lua
 Source=ChamColor_L
-Timestep=10
+Timestep=5
+
+; Styles Used in the skins
+--------------------------
 
 [Style_Clock_BW]
 FontFace=#Font_Hairline#
