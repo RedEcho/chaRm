@@ -29,10 +29,10 @@ FadeTime=50
 ; Police, size and weight of each text
 Font_Default=Lato
 Font_Hairline=Lato Hairline
-ClockFontSize=170
+ClockFontSize=180
 ClockFontWeight=100
-DateFontSize=25
-DateFontWeight=700
+DateFontSize=30
+DateFontWeight=300
 TitleFontSize=12
 TitleFontWeight=300
 DefaultFontSize=10

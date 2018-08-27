@@ -43,7 +43,7 @@ Source=ChamColor_L3
 Timestep=5
 
 [Style_Clock_BW]
-FontFace=#TextFont#
+FontFace=#Font_Hairline#
 FontSize=#ClockFontSize#
 FontColor=#GreyTextColor#
 FontWeight=#ClockFontWeight#
@@ -51,14 +51,14 @@ AntiAlias=1
 
 [Style_Clock_C]
 DynamicVariables=1
-FontFace=#TextFont#
+FontFace=#Font_Hairline#
 FontSize=#ClockFontSize#
 FontColor=[DesktopColor_L1]FF
 FontWeight=#ClockFontWeight#
 AntiAlias=1
 
 [Style_Date_BW]
-FontFace=#TextFont#
+FontFace=#Font_Default#
 FontSize=#DateFontSize#
 FontColor=#GreyTextColor#
 FontWeight=#DateFontWeight#
@@ -66,21 +66,21 @@ AntiAlias=1
 
 [Style_Date_C]
 DynamicVariables=1
-FontFace=#TextFont#
+FontFace=#Font_Default#
 FontSize=#DateFontSize#
 FontColor=[DesktopColor_L1]FF
 FontWeight=#DateFontWeight#
 AntiAlias=1
 
 [Style_Title]
-FontFace=#TextFont#
+FontFace=#Font_Default#
 FontSize=#TitleFontSize#
 FontColor=#GreyTextColor#
 FontWeight=#TitleFontWeight#
 AntiAlias=1
 
 [Style_Default_BW]
-FontFace=#TextFont#
+FontFace=#Font_Default#
 FontSize=#DefaultFontSize#
 FontColor=#GreyTextColor#
 FontWeight=#DefaultFontWeight#
@@ -88,7 +88,7 @@ AntiAlias=1
 
 [Style_Default_FG1]
 DynamicVariables=1
-FontFace=#TextFont#
+FontFace=#Font_Default#
 FontSize=#DefaultFontSize#
 FontColor=[DesktopColor_L1]FF
 FontWeight=#DefaultFontWeight#
@@ -96,7 +96,7 @@ AntiAlias=1
 
 [Style_Default_FG2]
 DynamicVariables=1
-FontFace=#TextFont#
+FontFace=#Font_Default#
 FontSize=#DefaultFontSize#
 FontColor=[DesktopColor_L2]FF
 FontWeight=#DefaultFontWeight#
