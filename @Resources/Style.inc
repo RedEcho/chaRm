@@ -6,41 +6,41 @@ Measure=Plugin
 Plugin=Chameleon
 Type=Desktop
 
-[ChamColor_L1]
+[ChamColor_FG1]
 Measure=Plugin
 Plugin=Chameleon
 Parent=ChameleonDesktop
 Color=Light1
 
-[ChamColor_L2]
+[ChamColor_FG2]
 Measure=Plugin
 Plugin=Chameleon
 Parent=ChameleonDesktop
 Color=Light2
 
-[ChamColor_L3]
+[ChamColor_L]
 Measure=Plugin
 Plugin=Chameleon
 Parent=ChameleonDesktop
-Color=Average
+Color=Luminance
 
-[DesktopColor_L1]
+[DesktopColor_FG1]
 Measure=Script
 ScriptFile=#@#Fade.lua
-Source=ChamColor_L1
-Timestep=5
+Source=ChamColor_FG1
+Timestep=10
 
-[DesktopColor_L2]
+[DesktopColor_FG2]
 Measure=Script
 ScriptFile=#@#Fade.lua
-Source=ChamColor_L2
-Timestep=5
+Source=ChamColor_FG2
+Timestep=10
 
-[DesktopColor_L3]
+[DesktopColor_L]
 Measure=Script
 ScriptFile=#@#Fade.lua
-Source=ChamColor_L3
-Timestep=5
+Source=ChamColor_L
+Timestep=10
 
 [Style_Clock_BW]
 FontFace=#Font_Hairline#
@@ -53,22 +53,14 @@ AntiAlias=1
 DynamicVariables=1
 FontFace=#Font_Hairline#
 FontSize=#ClockFontSize#
-FontColor=[DesktopColor_L1]FF
+FontColor=[DesktopColor_FG1]FF
 FontWeight=#ClockFontWeight#
 AntiAlias=1
 
-[Style_Date_BW]
+[Style_Date]
 FontFace=#Font_Default#
 FontSize=#DateFontSize#
 FontColor=#GreyTextColor#
-FontWeight=#DateFontWeight#
-AntiAlias=1
-
-[Style_Date_C]
-DynamicVariables=1
-FontFace=#Font_Default#
-FontSize=#DateFontSize#
-FontColor=[DesktopColor_L1]FF
 FontWeight=#DateFontWeight#
 AntiAlias=1
 

@@ -24,7 +24,7 @@ HardDrive2=D
 ;----------------------------------
 
 ; Time in ms the color fading should take when the wallpaper changes
-FadeTime=50
+FadeTime=100
 
 ; Police, size and weight of each text
 Font_Default=Lato
