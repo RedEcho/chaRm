@@ -47,7 +47,7 @@ Source=ChamColor_L
 Timestep=5
 
 ; Styles Used in the skins
---------------------------
+;-------------------------
 
 [Style_Clock_BW]
 FontFace=#Font_Hairline#

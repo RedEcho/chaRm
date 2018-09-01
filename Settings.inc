@@ -36,9 +36,9 @@ SampleIndividualZones = 0
 ; Police, size and weight of each text
 Font_Default=Lato
 Font_Hairline=Lato Hairline
-ClockFontSize=180
+ClockFontSize=(#SCREENAREAWIDTH# / 12)
 ClockFontWeight=100
-DateFontSize=30
+DateFontSize=(#SCREENAREAWIDTH# / 70)
 DateFontWeight=300
 TitleFontSize=12
 TitleFontWeight=300
