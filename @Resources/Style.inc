@@ -1,49 +1,56 @@
 [Variables]
 @Include2=#ROOTCONFIGPATH#Settings.inc
 
+; Get most important colors from the wallpaper using chameleon plugin.
+; Also fades between colors when the wallpaper changes
+;----------------------------------------------------------------------
+
 [ChameleonDesktop]
 Measure=Plugin
 Plugin=Chameleon
 Type=Desktop
 
-[ChamColor_L1]
+[ChamColor_FG1]
 Measure=Plugin
 Plugin=Chameleon
 Parent=ChameleonDesktop
 Color=Light1
 
-[ChamColor_L2]
+[ChamColor_FG2]
 Measure=Plugin
 Plugin=Chameleon
 Parent=ChameleonDesktop
 Color=Light2
 
-[ChamColor_L3]
+[ChamColor_L]
 Measure=Plugin
 Plugin=Chameleon
 Parent=ChameleonDesktop
-Color=Average
+Color=Luminance
 
-[DesktopColor_L1]
+[DesktopColor_FG1]
 Measure=Script
 ScriptFile=#@#Fade.lua
-Source=ChamColor_L1
+Source=ChamColor_FG1
 Timestep=5
 
-[DesktopColor_L2]
+[DesktopColor_FG2]
 Measure=Script
 ScriptFile=#@#Fade.lua
-Source=ChamColor_L2
+Source=ChamColor_FG2
 Timestep=5
 
-[DesktopColor_L3]
+[DesktopColor_L]
 Measure=Script
 ScriptFile=#@#Fade.lua
-Source=ChamColor_L3
+Source=ChamColor_L
 Timestep=5
+
+; Styles Used in the skins
+;-------------------------
 
 [Style_Clock_BW]
-FontFace=#TextFont#
+FontFace=#Font_Hairline#
 FontSize=#ClockFontSize#
 FontColor=#GreyTextColor#
 FontWeight=#ClockFontWeight#
@@ -51,36 +58,28 @@ AntiAlias=1
 
 [Style_Clock_C]
 DynamicVariables=1
-FontFace=#TextFont#
+FontFace=#Font_Hairline#
 FontSize=#ClockFontSize#
-FontColor=[DesktopColor_L1]FF
+FontColor=[DesktopColor_FG1]FF
 FontWeight=#ClockFontWeight#
 AntiAlias=1
 
-[Style_Date_BW]
-FontFace=#TextFont#
+[Style_Date]
+FontFace=#Font_Default#
 FontSize=#DateFontSize#
 FontColor=#GreyTextColor#
 FontWeight=#DateFontWeight#
 AntiAlias=1
 
-[Style_Date_C]
-DynamicVariables=1
-FontFace=#TextFont#
-FontSize=#DateFontSize#
-FontColor=[DesktopColor_L1]FF
-FontWeight=#DateFontWeight#
-AntiAlias=1
-
 [Style_Title]
-FontFace=#TextFont#
+FontFace=#Font_Default#
 FontSize=#TitleFontSize#
 FontColor=#GreyTextColor#
 FontWeight=#TitleFontWeight#
 AntiAlias=1
 
 [Style_Default_BW]
-FontFace=#TextFont#
+FontFace=#Font_Default#
 FontSize=#DefaultFontSize#
 FontColor=#GreyTextColor#
 FontWeight=#DefaultFontWeight#
@@ -88,7 +87,7 @@ AntiAlias=1
 
 [Style_Default_FG1]
 DynamicVariables=1
-FontFace=#TextFont#
+FontFace=#Font_Default#
 FontSize=#DefaultFontSize#
 FontColor=[DesktopColor_L1]FF
 FontWeight=#DefaultFontWeight#
@@ -96,7 +95,7 @@ AntiAlias=1
 
 [Style_Default_FG2]
 DynamicVariables=1
-FontFace=#TextFont#
+FontFace=#Font_Default#
 FontSize=#DefaultFontSize#
 FontColor=[DesktopColor_L2]FF
 FontWeight=#DefaultFontWeight#
