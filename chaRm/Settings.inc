@@ -26,7 +26,7 @@ HardDrive2=D
 ClockFontSizeModifier=0
 DateFontSizeModifier=0
 TitleFontSizeModifier=0
-DefaultFontSize=0
+DefaultFontSizeModifier=0
 
 
 ; YOU MAY WANT TO CHANGE THOSE
@@ -51,7 +51,7 @@ DateFontSize=((#SCREENAREAWIDTH# / 70) + #DateFontSizeModifier#)
 DateFontWeight=300
 TitleFontSize=((#SCREENAREAWIDTH# / 148) + #TitleFontSizeModifier#)
 TitleFontWeight=300
-DefaultFontSize=((#SCREENAREAWIDTH# / 192) + #DefaultFontSize#)
+DefaultFontSize=((#SCREENAREAWIDTH# / 192) + #DefaultFontSizeModifier#)
 DefaultFontWeight=100
 BarLegth=(#SCREENAREAWIDTH# / 10)
 BarHeight=(#SCREENAREAHEIGHT# / 216)
