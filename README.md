@@ -4,9 +4,6 @@ chaRm is a Rainmeter skin that aims to be as plug and play as possible. It essen
 More info about Rainmeter on their [website](https://www.rainmeter.net/) or the [GitHub of the project](https://github.com/rainmeter/rainmeter).
 ![This is chaRm](/doc/pic/Screen1.jpg)
 ![This also chaRm](/doc/pic/Screen2.jpg)
-
-## What is chaRm?
-
 chaRm scales to low resolutions pretty well.
 ![Low Rez and chaRm](/doc/pic/ScreenSizeDemo.jpg)
 It also changes colors to suit th chosen wallpaper, thanks to the [chameleon 3rd party plugin](https://github.com/socks-the-fox/Chameleon)
