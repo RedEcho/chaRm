@@ -22,6 +22,12 @@ MaxPing=100
 HardDrive1=C
 HardDrive2=D
 
+; If the text is too big or too small, you can modify those 
+ClockFontSizeModifier=0
+DateFontSizeModifier=0
+TitleFontSizeModifier=0
+DefaultFontSizeModifier=0
+
 
 ; YOU MAY WANT TO CHANGE THOSE
 ;----------------------------------
@@ -36,17 +42,16 @@ Grayscale=0
 ; Or if it try to choose the best colors for each section of wallpaper(1)
 SampleIndividualZones=0
 
-
 ; Police, size and weight of each text
 Font_Default=Lato
 Font_Hairline=Lato Hairline
-ClockFontSize=(#SCREENAREAWIDTH# / 12)
+ClockFontSize=((#SCREENAREAWIDTH# / 12) + #ClockFontSizeModifier#)
 ClockFontWeight=100
-DateFontSize=(#SCREENAREAWIDTH# / 70)
+DateFontSize=((#SCREENAREAWIDTH# / 70) + #DateFontSizeModifier#)
 DateFontWeight=300
-TitleFontSize=(#SCREENAREAWIDTH# / 148)
+TitleFontSize=((#SCREENAREAWIDTH# / 148) + #TitleFontSizeModifier#)
 TitleFontWeight=300
-DefaultFontSize=(#SCREENAREAWIDTH# / 192)
+DefaultFontSize=((#SCREENAREAWIDTH# / 192) + #DefaultFontSizeModifier#)
 DefaultFontWeight=100
 BarLegth=(#SCREENAREAWIDTH# / 10)
 BarHeight=(#SCREENAREAHEIGHT# / 216)

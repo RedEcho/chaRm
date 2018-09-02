@@ -14,19 +14,13 @@ Type=Desktop
 Measure=Plugin
 Plugin=Chameleon
 Parent=ChameleonDesktop
-Color=Light1
+Color=Foreground1
 
 [ChamColor_FG2]
 Measure=Plugin
 Plugin=Chameleon
 Parent=ChameleonDesktop
-Color=Light2
-
-[ChamColor_L]
-Measure=Plugin
-Plugin=Chameleon
-Parent=ChameleonDesktop
-Color=Luminance
+Color=Foreground2
 
 [DesktopColor_FG1]
 Measure=Script
@@ -40,11 +34,16 @@ ScriptFile=#@#Fade.lua
 Source=ChamColor_FG2
 Timestep=5
 
-[DesktopColor_L]
-Measure=Script
-ScriptFile=#@#Fade.lua
-Source=ChamColor_L
-Timestep=5
+[ChamColor_L]
+Measure=Plugin
+Plugin=Chameleon
+Parent=ChameleonDesktop
+Color=Luminance
+IfAboveValue=0.5
+IfAboveAction=[!SetVariable GreyTextColor "0,0,0,200"][!SetVariable GreyBarColor 0,0,0,50]
+IfBelowValue=0.5
+IfBelowAction=[!SetVariable GreyTextColor "255,255,255,200"][!SetVariable GreyBarColor "255,255,255,50"]
+
 
 ; Styles Used in the skins
 ;-------------------------
