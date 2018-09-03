@@ -5,8 +5,8 @@
 ; Your maximum download and upload speed.
 ; Only change the first number (before the '*' character) to your maximum download/upload speed in Mbps
 ; If you are unsure about what this is, more info here : https://docs.rainmeter.net/tips/network-skin/ §Setting the MinValue / MaxValue options
-DownloadSpeed=(3.5 * 1048576)
-UploadSpeed=(0.39 * 1048576)
+DownloadSpeed=(3.9 * 1048576)
+UploadSpeed=(0.4 * 1048576)
 
 ; Chage the first number (before the '*' character) to your Windows' recycle bin size limit in GB (or Go)
 ; If you left it unlimited, then enter 0
@@ -33,7 +33,7 @@ DefaultFontSizeModifier=0
 ;----------------------------------
 
 ; Time in ms the color fading should take when the wallpaper changes
-FadeTime=50
+FadeTime=500
 
 ; Set to 1 to swith to greyscale (no colors)
 Grayscale=0
@@ -55,5 +55,3 @@ DefaultFontSize=((#SCREENAREAWIDTH# / 192) + #DefaultFontSizeModifier#)
 DefaultFontWeight=100
 BarLegth=(#SCREENAREAWIDTH# / 10)
 BarHeight=(#SCREENAREAHEIGHT# / 216)
-GreyBarColor=255,255,255,50
-GreyTextColor=255,255,255,200

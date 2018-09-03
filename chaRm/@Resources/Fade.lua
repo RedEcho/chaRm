@@ -9,13 +9,13 @@ function Initialize()
 	Timestep = tonumber(SELF:GetOption('Timestep', '25'))
 	Accum = FadeTime
 	
-	Source = SKIN:GetMeasure(SELF:GetOption('Source', ''))
 	OldValue = nil
 	print("Fade "..SELF:GetOption('Source', '').." in ".. FadeTime.. "ms in steps of ".. Timestep.. "ms.")
 end
 
 function Update()
-	NewValue = Source:GetStringValue()
+	NewValue = SELF:GetOption('Source', '')
+	
 	local CurrentValue = NewValue
 	
 	if OldValue == nil
@@ -75,5 +75,9 @@ function DoFade(SrcColor, DestColor, dT)
 	destBlue = tonumber(string.sub(DestColor, 5, 6), 16)
 	curBlue = ((1 - dT) * srcBlue) + (dT * destBlue)
 	
-	return string.format('%02X%02X%02X', curRed, curGreen, curBlue)
+	srcT = tonumber(string.sub(SrcColor, 7, 8), 16)
+	destT = tonumber(string.sub(DestColor, 7, 8), 16)
+	curT = ((1 - dT) * srcT) + (dT * destT)
+	
+	return string.format('%02X%02X%02X%02X', curRed, curGreen, curBlue, curT)
 end
