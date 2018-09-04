@@ -125,7 +125,7 @@ AntiAlias=1
 DynamicVariables=1
 FontFace=#Font_Default#
 FontSize=#DefaultFontSize#
-FontColor=[DesktopColor_L1]
+FontColor=[DesktopColor_FG1]
 FontWeight=#DefaultFontWeight#
 AntiAlias=1
 
@@ -133,7 +133,7 @@ AntiAlias=1
 DynamicVariables=1
 FontFace=#Font_Default#
 FontSize=#DefaultFontSize#
-FontColor=[DesktopColor_L2]
+FontColor=[DesktopColor_FG2]
 FontWeight=#DefaultFontWeight#
 AntiAlias=1
 
