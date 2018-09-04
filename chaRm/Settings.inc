@@ -33,7 +33,7 @@ DefaultFontSizeModifier=0
 ;----------------------------------
 
 ; Time in ms the color fading should take when the wallpaper changes
-FadeTime=500
+FadeTime=700
 
 ; Set to 1 to swith to greyscale (no colors)
 Grayscale=0
