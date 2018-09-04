@@ -62,7 +62,11 @@ Timestep=24
 ; Styles Used in the skins
 ;-------------------------
 
+
+; CLOCK 'N DATE ---------------------------------------------------
+;------------------------------------------------------------------
 [Style_Clock_BW]
+DynamicVariables=1
 FontFace=#Font_Hairline#
 FontSize=#ClockFontSize#
 FontColor=[GreyTextColor]
@@ -71,6 +75,7 @@ AntiAlias=1
 
 [Style_Clock_C]
 DynamicVariables=1
+DynamicVariables=1
 FontFace=#Font_Hairline#
 FontSize=#ClockFontSize#
 FontColor=[DesktopColor_FG1]
@@ -78,20 +83,38 @@ FontWeight=#ClockFontWeight#
 AntiAlias=1
 
 [Style_Date]
+DynamicVariables=1
 FontFace=#Font_Default#
 FontSize=#DateFontSize#
 FontColor=[GreyTextColor]
 FontWeight=#DateFontWeight#
 AntiAlias=1
 
+; TITLE -----------------------------------------------------------
+;------------------------------------------------------------------
 [Style_Title]
+DynamicVariables=1
 FontFace=#Font_Default#
 FontSize=#TitleFontSize#
 FontColor=[GreyTextColor]
 FontWeight=#TitleFontWeight#
 AntiAlias=1
 
+
+[Style_Title_Left]
+StringAlign=LEFT
+X=( - #TitleFontSize# / 4)
+Y=0
+
+[Style_Title_Right]
+StringAlign=RIGHT
+X=(#BarLegth# + (#TitleFontSize# / 4) )
+Y=0
+
+; DEFAULT TEXT ----------------------------------------------------
+;------------------------------------------------------------------
 [Style_Default_BW]
+DynamicVariables=1
 FontFace=#Font_Default#
 FontSize=#DefaultFontSize#
 FontColor=[GreyTextColor]
@@ -102,7 +125,7 @@ AntiAlias=1
 DynamicVariables=1
 FontFace=#Font_Default#
 FontSize=#DefaultFontSize#
-FontColor=[DesktopColor_L1]
+FontColor=[DesktopColor_FG1]
 FontWeight=#DefaultFontWeight#
 AntiAlias=1
 
@@ -110,6 +133,24 @@ AntiAlias=1
 DynamicVariables=1
 FontFace=#Font_Default#
 FontSize=#DefaultFontSize#
-FontColor=[DesktopColor_L2]
+FontColor=[DesktopColor_FG2]
 FontWeight=#DefaultFontWeight#
 AntiAlias=1
+
+; METER BAR -------------------------------------------------------
+;------------------------------------------------------------------
+[Style_Meter_Bar]
+DynamicVariables=1
+X=0
+Y=R
+W=#BarLegth#
+H=#BarHeight#
+BarOrientation=HORIZONTAL
+
+[Style_Static_Bar]
+DynamicVariables=1
+X=0
+Y=R
+W=#BarLegth#
+H=#BarHeight#
+SolidColor=[GreyBarColor]
