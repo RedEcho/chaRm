@@ -1,8 +1,5 @@
 [Variables]
 @Include2=#ROOTCONFIGPATH#Settings.inc
-;Those are used to fade Grey stuff of the skin
-TargetGreyTextColor="FFFFFFC8"
-TargetGreyBarColor="FFFFFF32"
 
 ; Get most important colors from the wallpaper using chameleon plugin.
 ; Also fades between colors when the wallpaper changes

@@ -34,6 +34,9 @@ DefaultFontSizeModifier=0
 
 ; Time in ms the color fading should take when the wallpaper changes
 FadeTime=700
+; Nuber of refresh per second (makes the fading smoother but is very taxing on hardware)
+FPS=20
+FrameTime=(1000/#FPS#)
 
 ; Set to 1 to swith to greyscale (no colors)
 Grayscale=0
@@ -56,3 +59,7 @@ DefaultFontWeight=100
 BarLegth=(#SCREENAREAWIDTH# / 10)
 BarHeight=(#SCREENAREAHEIGHT# / 216)
 ColorError=FF0000AA
+
+;Those are used to fade Grey stuff of the skin
+TargetGreyTextColor=FFFFFFC8
+TargetGreyBarColor=FFFFFF32
