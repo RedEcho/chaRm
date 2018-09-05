@@ -92,11 +92,6 @@ AntiAlias=1
 
 ; TITLE -----------------------------------------------------------
 ;------------------------------------------------------------------
-[Script_TitleColor]
-Measure=Script
-ScriptFile=#@#TitleColor.lua
-Disabled=1
-
 [Style_Title]
 DynamicVariables=1
 FontFace=#Font_Default#

@@ -55,3 +55,4 @@ DefaultFontSize=((#SCREENAREAWIDTH# / 192) + #DefaultFontSizeModifier#)
 DefaultFontWeight=100
 BarLegth=(#SCREENAREAWIDTH# / 10)
 BarHeight=(#SCREENAREAHEIGHT# / 216)
+ColorError=FF0000AA
