@@ -29,13 +29,13 @@ Color=Foreground2
 Measure=Script
 ScriptFile=#@#Fade.lua
 Source=[ChamColor_FG1]FF
-Timestep=24
+Timestep=50
 
 [DesktopColor_FG2]
 Measure=Script
 ScriptFile=#@#Fade.lua
 Source=[ChamColor_FG2]FF
-Timestep=24
+Timestep=50
 
 [ChamColor_L]
 Measure=Plugin
@@ -51,13 +51,13 @@ IfBelowAction=[!SetVariable TargetGreyTextColor "FFFFFFC8"][!SetVariable TargetG
 Measure=Script
 ScriptFile=#@#Fade.lua
 Source=#TargetGreyTextColor#
-Timestep=24
+Timestep=50
 
 [GreyBarColor]
 Measure=Script
 ScriptFile=#@#Fade.lua
 Source=#TargetGreyBarColor#
-Timestep=24
+Timestep=50
 
 ; Styles Used in the skins
 ;-------------------------
@@ -99,7 +99,6 @@ FontSize=#TitleFontSize#
 FontColor=[GreyTextColor]
 FontWeight=#TitleFontWeight#
 AntiAlias=1
-
 
 [Style_Title_Left]
 StringAlign=LEFT
