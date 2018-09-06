@@ -53,11 +53,11 @@ ClockFontWeight=100
 DateFontSize=((#SCREENAREAWIDTH# / 70) + #DateFontSizeModifier#)
 DateFontWeight=300
 TitleFontSize=((#SCREENAREAWIDTH# / 148) + #TitleFontSizeModifier#)
-TitleFontWeight=300
+TitleFontWeight=500
 DefaultFontSize=((#SCREENAREAWIDTH# / 192) + #DefaultFontSizeModifier#)
-DefaultFontWeight=100
+DefaultFontWeight=500
 BarLegth=(#SCREENAREAWIDTH# / 10)
-BarHeight=(#SCREENAREAHEIGHT# / 216)
+BarHeight=(#SCREENAREAHEIGHT# / 135)
 ColorError=FF0000AA
 
 ;Those are used to fade Grey stuff of the skin
