@@ -58,7 +58,7 @@ DefaultFontSize=((#SCREENAREAWIDTH# / 175) + #DefaultFontSizeModifier#)
 DefaultFontWeight=500
 BarLegth=(#SCREENAREAWIDTH# / 9)
 BarHeight=(#SCREENAREAHEIGHT# / 180)
-ColorError=FF0000AA
+ColorError=FF0000EE
 
 ;Those are used to fade Grey stuff of the skin
 TargetGreyTextColor=FFFFFFC8
