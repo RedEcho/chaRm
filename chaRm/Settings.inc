@@ -57,7 +57,7 @@ TitleFontWeight=500
 DefaultFontSize=((#SCREENAREAWIDTH# / 192) + #DefaultFontSizeModifier#)
 DefaultFontWeight=500
 BarLegth=(#SCREENAREAWIDTH# / 10)
-BarHeight=(#SCREENAREAHEIGHT# / 135)
+BarHeight=(#SCREENAREAHEIGHT# / 180)
 ColorError=FF0000AA
 
 ;Those are used to fade Grey stuff of the skin
