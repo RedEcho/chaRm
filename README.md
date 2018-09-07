@@ -2,7 +2,7 @@
 
 chaRm is a Rainmeter skin that aims to be as plug and play as possible. It essentially adds some basic info as widgets on your desktop. 
 More info about Rainmeter on their [website](https://www.rainmeter.net/) or the [GitHub of the project](https://github.com/rainmeter/rainmeter).
-![This is chaRm](/doc/pic/Screen1.jpg)
+![This is chaRm](/doc/pic/Interactivity.gif)
 ![This also chaRm](/doc/pic/Screen2.jpg)
 chaRm scales to low resolutions pretty well.
 ![Low Rez and chaRm](/doc/pic/ScreenSizeDemo.jpg)
