@@ -1,8 +1,5 @@
 [Variables]
 @Include2=#ROOTCONFIGPATH#Settings.inc
-;Those are used to fade Grey stuff of the skin
-TargetGreyTextColor="FFFFFFC8"
-TargetGreyBarColor="FFFFFF32"
 
 ; Get most important colors from the wallpaper using chameleon plugin.
 ; Also fades between colors when the wallpaper changes
@@ -43,7 +40,7 @@ Plugin=Chameleon
 Parent=ChameleonDesktop
 Color=Luminance
 IfAboveValue=0.5
-IfAboveAction=[!SetVariable TargetGreyTextColor "000000C8"][!SetVariable TargetGreyBarColor "00000064"]
+IfAboveAction=[!SetVariable TargetGreyTextColor "000000C8"][!SetVariable TargetGreyBarColor "00000032"]
 IfBelowValue=0.5
 IfBelowAction=[!SetVariable TargetGreyTextColor "FFFFFFC8"][!SetVariable TargetGreyBarColor "FFFFFF32"]
 

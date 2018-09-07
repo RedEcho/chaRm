@@ -34,6 +34,9 @@ DefaultFontSizeModifier=0
 
 ; Time in ms the color fading should take when the wallpaper changes
 FadeTime=700
+; Nuber of refresh per second (makes the fading smoother but is very taxing on hardware)
+FPS=20
+FrameTime=(1000/#FPS#)
 
 ; Set to 1 to swith to greyscale (no colors)
 Grayscale=0
@@ -49,10 +52,14 @@ ClockFontSize=((#SCREENAREAWIDTH# / 12) + #ClockFontSizeModifier#)
 ClockFontWeight=100
 DateFontSize=((#SCREENAREAWIDTH# / 70) + #DateFontSizeModifier#)
 DateFontWeight=300
-TitleFontSize=((#SCREENAREAWIDTH# / 148) + #TitleFontSizeModifier#)
-TitleFontWeight=300
-DefaultFontSize=((#SCREENAREAWIDTH# / 192) + #DefaultFontSizeModifier#)
-DefaultFontWeight=100
-BarLegth=(#SCREENAREAWIDTH# / 10)
-BarHeight=(#SCREENAREAHEIGHT# / 216)
-ColorError=FF0000AA
+TitleFontSize=((#SCREENAREAWIDTH# / 140) + #TitleFontSizeModifier#)
+TitleFontWeight=500
+DefaultFontSize=((#SCREENAREAWIDTH# / 175) + #DefaultFontSizeModifier#)
+DefaultFontWeight=500
+BarLegth=(#SCREENAREAWIDTH# / 9)
+BarHeight=(#SCREENAREAHEIGHT# / 180)
+ColorError=FF0000EE
+
+;Those are used to fade Grey stuff of the skin
+TargetGreyTextColor=FFFFFFC8
+TargetGreyBarColor=FFFFFF32
