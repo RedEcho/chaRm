@@ -52,11 +52,11 @@ ClockFontSize=((#SCREENAREAWIDTH# / 12) + #ClockFontSizeModifier#)
 ClockFontWeight=100
 DateFontSize=((#SCREENAREAWIDTH# / 70) + #DateFontSizeModifier#)
 DateFontWeight=300
-TitleFontSize=((#SCREENAREAWIDTH# / 148) + #TitleFontSizeModifier#)
+TitleFontSize=((#SCREENAREAWIDTH# / 128) + #TitleFontSizeModifier#)
 TitleFontWeight=500
-DefaultFontSize=((#SCREENAREAWIDTH# / 192) + #DefaultFontSizeModifier#)
+DefaultFontSize=((#SCREENAREAWIDTH# / 160) + #DefaultFontSizeModifier#)
 DefaultFontWeight=500
-BarLegth=(#SCREENAREAWIDTH# / 10)
+BarLegth=(#SCREENAREAWIDTH# / 8)
 BarHeight=(#SCREENAREAHEIGHT# / 180)
 ColorError=FF0000AA
 
