@@ -40,7 +40,7 @@ Plugin=Chameleon
 Parent=ChameleonDesktop
 Color=Luminance
 IfAboveValue=0.5
-IfAboveAction=[!SetVariable TargetGreyTextColor "000000C8"][!SetVariable TargetGreyBarColor "00000064"]
+IfAboveAction=[!SetVariable TargetGreyTextColor "000000C8"][!SetVariable TargetGreyBarColor "00000032"]
 IfBelowValue=0.5
 IfBelowAction=[!SetVariable TargetGreyTextColor "FFFFFFC8"][!SetVariable TargetGreyBarColor "FFFFFF32"]
 
