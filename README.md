@@ -12,9 +12,11 @@ More info about Rainmeter on their [website](https://www.rainmeter.net/) or the 
 My work on chaRm started after a few colleagues and friends showed interest in my old Rainmeter skin. It was a PITA to adapt my skin to each of their individual setups, so I set out to create a skin that would adapt itself.
 As for the name, this skin is both CHARMing and a CHAMeleon. And yes, at the beginning, I thought it was very clever.
 
----
+The name of each release comes from the concatenated release number, converted to hex, inputed into [this website](https://www.colorhexa.com).
+`2.1.0 -> 210 -> #0000D2 -> "Strong Red"`
 
-## Key Features
+
+# Key Features
 
 ### chaRm adapts to your wallpaper
 
@@ -62,16 +64,23 @@ When some of the data under watch is going too high, chaRm will change the color
 
 ---
 
-## Current Limitations
+# Current Limitations
 
 - chaRm is only tested on 4:3 up to 16:9 **aspect ratio**, and on 800x600 up to 1920x1080 **resolution** screens. I'm not equipped to test 21:9, 1440p or 4K
 - Some **wallpapers** might not work as well as others. Usually if the general place is dark while the rest of the picture is really bright (and conversely), the text won't be readable. Some part of the skins may not be visible if the main highlight color of your wallpaper is right behind the skin. I'd say that with random wallpapers, it works out of the box more than 90% of the time. 
 - **Optimization** is quite poor currently. I'm still working on it, but this theme usually takes around 8% of my i5-2500k. I'm still working on it, but in the meantime I suggest you disable the theme manually when running hardcore apps.
 
-## Instructions
+# Instructions
 
 _TODO:UPDATE THIS SECTION_
 
 First install the [chameleon plugin](https://software.socksthefox.net/chameleon/), then [install chaRm just as any Rainmeter skin](https://docs.rainmeter.net/manual/installing-skins/)
 Refresh All, as well as the layout file, choose your wallpaper, and you're set. I recommand to choose a neutral colour for your Windows.
 Recyclebin Windows remove
+
+# Acknowledgements
+
+- This project wouldn't be possible without the hard work of the [Rainmeter team](https://github.com/rainmeter/rainmeter/graphs/contributors). 
+- This theme uses plugins from [FlyingHyrax](https://github.com/flyinghyrax) and [Socks the Fox](https://github.com/socks-the-fox). Thanks to both of them !
+- The `STORAGE` skin uses parts of [eclectic-tech](https://forum.rainmeter.net/viewtopic.php?f=18&t=17342&p=143116&hilit=drivelist#p143116)'s work. 
+- The original idea for this theme came from [Rasylver's Lines2.0 skin](<https://visualskins.com/skin/lines-20>). Although you may still find similarities in concepts, no code is shared between the two projects anymore. 
