@@ -15,8 +15,14 @@ As for the name, this skin is both CHARMing and a CHAMeleon. And yes, at the beg
 The name of each release comes from the concatenated release number, converted to hex, inputed into [this website](https://www.colorhexa.com).
 `2.1.0 -> 210 -> #0000D2 -> "Strong Red"`
 
+# Table of Content
 
-# Key Features
+1. [Key Features](#key-features)
+2. [Current Limitations](#current-limitations)
+3. [Installation](#installation)
+4. [Acknowledgement](#acknowledgement)
+
+# 1. Key Features
 
 ### chaRm adapts to your wallpaper
 
@@ -62,15 +68,13 @@ When some of the data under watch is going too high, chaRm will change the color
 
 ![Critical alert](./doc/pic/Alert.jpg)
 
----
-
-# Current Limitations
+# 2. Current Limitations
 
 - chaRm is only tested on 4:3 up to 16:9 **aspect ratio**, and on 800x600 up to 1920x1080 **resolution** screens. I'm not equipped to test 21:9, 1440p or 4K
 - Some **wallpapers** might not work as well as others. Usually if the general place is dark while the rest of the picture is really bright (and conversely), the text won't be readable. Some part of the skins may not be visible if the main highlight color of your wallpaper is right behind the skin. I'd say that with random wallpapers, it works out of the box more than 90% of the time. 
 - **Optimization** is quite poor currently. I'm still working on it, but this theme usually takes around 8% of my i5-2500k. I'm still working on it, but in the meantime I suggest you disable the theme manually when running hardcore apps.
 
-# Instructions
+# 3. Installation
 
 _TODO:UPDATE THIS SECTION_
 
@@ -78,7 +82,7 @@ First install the [chameleon plugin](https://software.socksthefox.net/chameleon/
 Refresh All, as well as the layout file, choose your wallpaper, and you're set. I recommand to choose a neutral colour for your Windows.
 Recyclebin Windows remove
 
-# Acknowledgements
+# 4. Acknowledgements
 
 - This project wouldn't be possible without the hard work of the [Rainmeter team](https://github.com/rainmeter/rainmeter/graphs/contributors). 
 - This theme uses plugins from [FlyingHyrax](https://github.com/flyinghyrax) and [Socks the Fox](https://github.com/socks-the-fox). Thanks to both of them !
