@@ -1,5 +1,7 @@
 # chaRm
 
+[![GitHub release](https://img.shields.io/badge/Latest%20Release-v1.0.0-blue.svg)](https://github.com/RedEcho/chaRm/releases/tag/v1.0.0)
+
 chaRm is a **clean**, **stylish** and **modern-looking** Rainmeter skin that aims to be as **plug and play** as possible. It essentially adds some basic but functional info as widgets on your desktop, and adapts to your wallpaper and screen resolution.
 More info about Rainmeter on their [website](https://www.rainmeter.net/) or the [GitHub of the project](https://github.com/rainmeter/rainmeter).
 
