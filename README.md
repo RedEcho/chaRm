@@ -40,7 +40,7 @@ Using both tooltips and mouse actions, chaRm packs more useful information and f
 
 The `STORAGE` skin can display more information about each drive in a tootip b hovering above the relevant bar. There, you can see the name of your drive, as well as détails about its filling state. You can also left click of the bar to directly open a File Explorer window, located on the relevant drive.
 
-Also, using [flyingrax's DriveList 3rd patry plugin](https://github.com/FlyingHyrax/rm-drivelist-plugin), the list of connected drive is kept up to date in real time, and the skin will show drives accordingly up to 9 drives (support for more drive can be added quite easily)
+Also, using [FlyingHyrax's DriveList 3rd patry plugin](https://github.com/FlyingHyrax/rm-drivelist-plugin), the list of connected drive is kept up to date in real time, and the skin will show drives accordingly up to 9 drives (support for more drive can be added quite easily)
 
 ![STORAGE Tooltips](./doc/pic/Tooltips.jpg)
 
