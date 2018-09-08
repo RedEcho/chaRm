@@ -17,10 +17,10 @@ The name of each release comes from the concatenated release number, converted t
 
 # Table of Content
 
-1. [Key Features](#key-features)
-2. [Current Limitations](#current-limitations)
-3. [Installation](#installation)
-4. [Acknowledgement](#acknowledgement)
+1. [Key Features](#1-key-features)
+2. [Current Limitations](#2-current-limitations)
+3. [Installation](#3-installation)
+4. [Acknowledgement](#4-acknowledgement)
 
 # 1. Key Features
 
