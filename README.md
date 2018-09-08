@@ -18,7 +18,7 @@ As for the name, this skin is both CHARMing and a CHAMeleon. And yes, at the beg
 
 Using the [chameleon 3rd party plugin by SoxTheFox](https://github.com/socks-the-fox/Chameleon), chaRm can detect the highlight colors of your wallpaper and adapt to it. It does that in real time, which means you can run a slideshow as your wallpaper, and let chaRm adapt the colors of each skins. It will even make some nice fading transitions!
 
-[![chaRm adapts to your wallpaper](./doc/pic/Adapt_to_wallpapers_thumb.jpg)](https://www.youtube.com/watch?v=https://youtu.be/V18R5t-GSxM)
+[![chaRm adapts to your wallpaper](./doc/pic/Adapt_to_wallpapers_thumb.jpg)](https://youtu.be/V18R5t-GSxM)
 
 ### chaRm adapts to your screen resolution
 
@@ -26,11 +26,11 @@ Thanks to a clever use of variables throughout the theme, chaRm will sense chang
 
 _Due to hardware limitations, this is only tested from 800x600 up to 19020x1080. See [Current Limitaions](#current-limitations) for more information_
 
-[![chaRm adapts to your screen resolution](./doc/pic/Adapt_to_resolution_thumb.jpg)](https://www.youtube.com/watch?v=https://youtu.be/6fpFxJLBbmI)
+[![chaRm adapts to your screen resolution](./doc/pic/Adapt_to_resolution_thumb.jpg)](https://youtu.be/6fpFxJLBbmI)
 
 ### chaRm is interactive
 
-[![chaRm is interactive](./doc/pic/Interactivity_thumb.jpg)](https://www.youtube.com/watch?v=https://youtu.be/hW2kuEdvV7w)
+[![chaRm is interactive](./doc/pic/Interactivity_thumb.jpg)](https://youtu.be/hW2kuEdvV7w)
 
 Using both tooltips and mouse actions, chaRm packs more useful information and features at your fingertips than it looks at first sight. Discover them below!
 
