@@ -33,10 +33,12 @@ DefaultFontSizeModifier=0
 ;----------------------------------
 
 ; Time in ms the color fading should take when the wallpaper changes
-FadeTime=700
+FadeTime=500
 ; Nuber of refresh per second (makes the fading smoother but is very taxing on hardware)
 FPS=20
 FrameTime=(1000/#FPS#)
+UpdateTime=1000
+UpdateDiv=(#UpdateTime# * #FPS# / 1000)
 
 ; Set to 1 to swith to greyscale (no colors)
 Grayscale=0
