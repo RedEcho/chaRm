@@ -41,7 +41,7 @@ UpdateTime=1000
 UpdateDiv=(#UpdateTime# * #FPS# / 1000)
 
 ; Set to 1 to swith to greyscale (no colors)
-Grayscale=0
+Greyscale=1
 
 ; Wether the program will sample the all wallpaper and choose the same colors for all text (0)
 ; Or if it try to choose the best colors for each section of wallpaper(1)

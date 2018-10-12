@@ -7,6 +7,7 @@
 function Initialize()
 	FadeTime = tonumber(SKIN:GetVariable('FadeTime', '1000'))
 	Timestep = tonumber(SELF:GetOption('Timestep', '25'))
+	Greyscale = tonumber(SELF:GetOption('Greyscale', '0'))
 	Accum = FadeTime
 	
 	OldValue = nil
@@ -44,6 +45,18 @@ function Update()
 			print("Done fading "..OldValue.." to "..NewValue);
 			OldValue = NewValue
 		end
+	end
+	
+	if Greyscale ~= 0
+	then
+		R = tonumber(string.sub(CurrentValue, 1, 2), 16)
+		G = tonumber(string.sub(CurrentValue, 3, 4), 16)
+		B = tonumber(string.sub(CurrentValue, 5, 6), 16)
+		T = tonumber(string.sub(CurrentValue, 7, 8), 16)
+	
+		G = (0.21 * R) + (0.72 * G) + (0.07 * B)
+		
+		return string.format('%02X%02X%02X%02X', G, G, G, T)
 	end
 	
 	return CurrentValue
