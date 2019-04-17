@@ -16,6 +16,7 @@ Measure=Plugin
 Plugin=Chameleon
 Parent=ChameleonDesktop
 Color=Foreground1
+CropDesktop=0
 UpdateDivider=1
 
 [ChamColor_FG2]
@@ -23,6 +24,7 @@ Measure=Plugin
 Plugin=Chameleon
 Parent=ChameleonDesktop
 Color=Foreground2
+CropDesktop=0
 UpdateDivider=1
 
 [DesktopColor_FG1]
@@ -48,6 +50,7 @@ Measure=Plugin
 Plugin=Chameleon
 Parent=ChameleonDesktop
 Color=Luminance
+CropDesktop=0
 IfAboveValue=0.5
 IfAboveAction=[!SetVariable TargetGreyTextColor "000000C8"][!SetVariable TargetGreyBarColor "00000032"]
 IfBelowValue=0.5
@@ -69,6 +72,7 @@ Source=#TargetGreyBarColor#
 Timestep=50
 OnChangeAction=[!UpdateMeterGroup GroupColorGreyBar][!RedrawGroup GroupColorGreyBar][!UpdateMeasureGroup GroupColorGreyBar][!RedrawGroup GroupColorGreyBar]
 UpdateDivider=1
+
 
 ; Styles Used in the skins
 ;-------------------------
