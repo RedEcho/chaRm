@@ -1,6 +1,6 @@
 # chaRm
 
-[![GitHub release](https://img.shields.io/badge/Latest%20Release-v1.1.0-blue.svg)](https://github.com/RedEcho/chaRm/releases/tag/v1.1.0)
+[![GitHub release](https://img.shields.io/badge/Latest%20Release-v1.1.0-blue.svg)](https://github.com/RedEcho/chaRm/releases/tag/v1.2.0)
 
 chaRm is a **clean**, **stylish** and **modern-looking** Rainmeter skin that aims to be as **plug and play** as possible. It essentially adds some basic but functional info as widgets on your desktop, and adapts to your wallpaper and screen resolution.
 More info about Rainmeter on their [website](https://www.rainmeter.net/) or the [GitHub of the project](https://github.com/rainmeter/rainmeter).
@@ -9,7 +9,7 @@ More info about Rainmeter on their [website](https://www.rainmeter.net/) or the 
 
 #### Why?
 
-My work on chaRm started after a few colleagues and friends showed interest in my old Rainmeter skin. It was a PITA to adapt my skin to each of their individual setups, so I set out to create a skin that would adapt itself.
+My work on chaRm started after a few colleagues and friends showed interest in my old Rainmeter skin. It was a PITA to adapt my skin to each of their individual setups and background images, so I set out to create a skin that would adapt itself.
 As for the name, this skin is both CHARMing and a CHAMeleon. And yes, at the beginning, I thought it was very clever.
 
 The name of each release comes from the concatenated release number, converted to hex, inputed into [this website](https://www.colorhexa.com).
@@ -72,15 +72,10 @@ When some of the data under watch is going too high, chaRm will change the color
 
 - chaRm is only tested on 4:3 up to 16:9 **aspect ratio**, and on 800x600 up to 1920x1080 **resolution** screens. I'm not equipped to test 21:9, 1440p or 4K
 - Some **wallpapers** might not work as well as others. Usually if the general place is dark while the rest of the picture is really bright (and conversely), the text won't be readable. Some part of the skins may not be visible if the main highlight color of your wallpaper is right behind the skin. I'd say that with random wallpapers, it works out of the box more than 90% of the time. 
-- **Optimization** is quite poor currently. I'm still working on it, but this theme usually takes around 8% of my i5-2500k. I'm still working on it, but in the meantime I suggest you disable the theme manually when running hardcore apps.
 
 # 3. Installation
 
 _TODO:UPDATE THIS SECTION_
-
-First install the [chameleon plugin](https://software.socksthefox.net/chameleon/), then [install chaRm just as any Rainmeter skin](https://docs.rainmeter.net/manual/installing-skins/)
-Refresh All, as well as the layout file, choose your wallpaper, and you're set. I recommand to choose a neutral colour for your Windows.
-Recyclebin Windows remove
 
 # 4. Acknowledgements
 
